@@ -1,0 +1,52 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: start;
+    padding: 24px;
+    max-width: 360px;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 8px;
+    color: #2e2f42;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    font-family: 'Montserrat';
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    outline: transparent;
+}
+
+.feedback-form textarea {
+    resize: none;
+}
+
+.feedback-form input:hover,
+.feedback-form input:focus,
+.feedback-form textarea:hover,
+.feedback-form textarea:focus {
+    border: 1px solid #000000;
+}
+
+.feedback-form button {
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.feedback-form button:hover,
+.feedback-form button:focus {
+    background-color: #6c8cff;
+}
